@@ -8,7 +8,7 @@
 }
 
 a {
-    color: #404040
+    color: #5085ff
 }
 
 a:hover, a:focus {
@@ -82,9 +82,7 @@ a:hover, a:focus {
 }
 
 .intro-header {
-    background: no-repeat center center;
-    background-color: gray;
-    background-attachment: scroll;
+    background: gray no-repeat scroll center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -259,8 +257,7 @@ input::-webkit-input-placeholder {
     color: #fff;
     line-height: 24px;
     text-decoration: none;
-    margin: 0 1px;
-    margin-bottom: 6px
+    margin: 0 1px 6px;
 }
 
 .tags a:hover, .tags a:active {
@@ -282,7 +279,7 @@ input::-webkit-input-placeholder {
         right: 0;
         border: 0;
         background: #fff;
-        box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .2);
+        /*box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .2);*/
         box-shadow: rgba(0, 0, 0, .117647) 0 1px 6px, rgba(0, 0, 0, .239216) 0 1px 4px;
         border-radius: 2px;
         width: 170px
@@ -345,21 +342,6 @@ input::-webkit-input-placeholder {
     background: rgba(0, 0, 0, .12)
 }
 
-@media only screen and (min-width: 1170px) {
-    .navbar-custom {
-        -webkit-transition: background-color .3s;
-        -moz-transition: background-color .3s;
-        transition: background-color .3s;
-        -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden
-    }
-}
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: inherit
 }
@@ -407,19 +389,6 @@ input::-webkit-input-placeholder {
 }
 
 @media only screen and (min-width: 1170px) {
-    .navbar-custom {
-        -webkit-transition: background-color .3s;
-        -moz-transition: background-color .3s;
-        transition: background-color .3s;
-        -webkit-transform: translate3d(0, 0, 0);
-        -moz-transform: translate3d(0, 0, 0);
-        -ms-transform: translate3d(0, 0, 0);
-        -o-transform: translate3d(0, 0, 0);
-        transform: translate3d(0, 0, 0);
-        -webkit-backface-visibility: hidden;
-        backface-visibility: hidden
-    }
-
     .navbar-custom.is-fixed {
         position: fixed;
         top: -61px;
@@ -567,7 +536,7 @@ input::-webkit-input-placeholder {
 }
 
 .navbar-nav {
-    margin: 7.5px -15px
+    margin: 8px -15px
 }
 
 .navbar-nav > li > a {
@@ -783,7 +752,7 @@ input::-webkit-input-placeholder {
         right: 0;
         border: 0;
         background: #fff;
-        box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .2);
+        /*box-shadow: 0 5px 10px 2px rgba(0, 0, 0, .2);*/
         box-shadow: rgba(0, 0, 0, .117647) 0 1px 6px, rgba(0, 0, 0, .239216) 0 1px 4px;
         border-radius: 2px;
         width: 170px
@@ -923,9 +892,7 @@ input::-webkit-input-placeholder {
 }
 
 .intro-header {
-    background: no-repeat center center;
-    background-color: #ccc;
-    background-attachment: scroll;
+    background: #ccc no-repeat scroll center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1119,8 +1086,7 @@ img::-moz-selection {
     line-height: 22px;
     font-size: 14px;
     text-decoration: none;
-    margin: 0 1px;
-    margin-bottom: 6px
+    margin: 0 1px 6px;
 }
 
 .tags a:hover, .tags a:active {
@@ -1592,7 +1558,7 @@ code {
 
     .post-list-item {
         width: 50%;
-        padding: 0 7.5px 10px 7.5px
+        padding: 0 8px 10px 8px
     }
 
     .post-list-item:nth-child(odd) {
