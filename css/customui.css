@@ -7,9 +7,14 @@
     }
 }
 
-a {
+#post-content a {
     color: #5085ff
 }
+
+a {
+    color: #404040
+}
+
 
 a:hover, a:focus {
     color: #42b983
