@@ -7,6 +7,12 @@
     }
 }
 
+/*文章图片居中*/
+.blog-article-p img {
+    margin: 0 auto;
+    display: block;
+}
+
 .blog-article-p a {
     color: #5085ff
 }
