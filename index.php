@@ -33,6 +33,7 @@ $this->need('header.php');
                                 <span class="category-name">
                                     <?php $this->category('  '); ?>
                                 </span>
+                                <span class="in"><?php echo ViewsCounter_Plugin::getViews(); ?> Views</span>
                             </div>
                         </div>
                     </div>
