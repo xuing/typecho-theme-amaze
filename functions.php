@@ -34,6 +34,9 @@ function themeConfig($form) {
 
     $socialJianshu = new Typecho_Widget_Helper_Form_Element_Text('socialJianshu', NULL, NULL, _t('Jianshu'), _t('请输入简书地址'));
     $form->addInput($socialJianshu);
+
+    $socialJianshu = new Typecho_Widget_Helper_Form_Element_Text('socialFreebuf', NULL, NULL, _t('Freebuf'), _t('请输入Freebuf的个人地址'));
+    $form->addInput($socialJianshu);
 }
 
 function getCommentAt($coid){

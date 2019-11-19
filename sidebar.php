@@ -37,6 +37,11 @@
                  <a class="am-icon-btn icon-jianshu" target="_blank" itemtype="url" href="<?php $this->options->socialJianshu(); ?>"></a>
             </li>
             <?php endif; ?>
+            <?php if ($this->options->socialFreebuf): ?>
+            <li>
+                 <a class="am-icon-btn icon-freebuf" target="_blank" itemtype="url" href="<?php $this->options->socialFreebuf(); ?>"></a>
+            </li>
+            <?php endif; ?>
         </ul>
     </section>
     <section>

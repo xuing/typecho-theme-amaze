@@ -5,6 +5,12 @@
     font-size: 18px;
 }
 
+.icon-freebuf:before {
+    content: "FB";
+    font-size: 18px;
+}
+
+/*移动端搜索图标显示修正 */
 #searchIcon{
     display: none;
 }
@@ -1016,7 +1022,7 @@ input::-webkit-input-placeholder {
 
 .list-inline {
     padding-left: 0;
-    margin-left: -5px;
+    margin: 1rem 0 0 0;
     list-style: none
 }
 
