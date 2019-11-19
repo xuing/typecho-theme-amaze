@@ -32,6 +32,11 @@
                 <a class="am-icon-btn am-icon-twitter" target="_blank" itemtype="url" href="<?php $this->options->socialTwitter(); ?>"></a>
             </li>
             <?php endif; ?>
+            <?php if ($this->options->socialJianshu): ?>
+            <li>
+                 <a class="am-icon-btn icon-jianshu" target="_blank" itemtype="url" href="<?php $this->options->socialJianshu(); ?>"></a>
+            </li>
+            <?php endif; ?>
         </ul>
     </section>
     <section>

@@ -31,6 +31,9 @@ function themeConfig($form) {
 
     $socialWeibo = new Typecho_Widget_Helper_Form_Element_Text('socialWeibo', NULL, NULL, _t('Weibo'), _t('请输入微博地址'));
     $form->addInput($socialWeibo);
+
+    $socialJianshu = new Typecho_Widget_Helper_Form_Element_Text('socialJianshu', NULL, NULL, _t('Jianshu'), _t('请输入简书地址'));
+    $form->addInput($socialJianshu);
 }
 
 function getCommentAt($coid){

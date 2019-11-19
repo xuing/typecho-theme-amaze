@@ -1,3 +1,10 @@
+/*图标显示*/
+
+.icon-jianshu:before {
+    content: "简";
+    font-size: 18px;
+}
+
 #searchIcon{
     display: none;
 }
