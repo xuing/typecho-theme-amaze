@@ -75,6 +75,21 @@
     </div>
     <!-- /.container -->
 </nav>
+<?php if ($this->is('post')) { ?>
+<header class="intro-header" style="background-image: url('<?php $this->options->backgroundImage();?>')">
+<div class="container">
+    <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1><?php $this->title() ?></h1>
+                    <span class="meta">@<?php $this->author(); ?> &nbsp;<?php $this->date('F j, Y'); ?></span>
+                    <div class="tags post-tags"><?php $this->category('  '); ?>&nbsp;</div>
+                </div>
+            </div>
+    </div>
+</div>
+</header>
+<?php }else{ ?>
 <header class="intro-header" style="background-image: url('<?php $this->options->backgroundImage(); ?>')">
     <div class="container">
         <div class="row">
@@ -88,3 +103,4 @@
         </div>
     </div>
 </header>
+<?php } ?>
