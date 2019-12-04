@@ -42,10 +42,9 @@
 - JQuery
 - AmazeUI
 - Highlight.js
-
 ## 安装
 Github本页面下载，点击"Download ZIP"下载，将主题文件夹改名为amaze，放到Typecho的`usr/themes/`目录下，并后台开启主题。
-
+需要安装[ViewsCounter](https://github.com/mierhuo/Typecho-ViewsCounter)插件
 ## 主题自定义
 登陆到管理后台，控制台=>外观=>设置外观
 
